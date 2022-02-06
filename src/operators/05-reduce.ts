@@ -18,3 +18,5 @@ interval(500).pipe(
     next: (val) => console.log('next: ', val),
     complete: () => console.log('complete')
 });
+
+//reduce only emit when complete
